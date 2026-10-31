@@ -1,0 +1,35 @@
+{
+  "name": "dialogue-memory-travel-planner",
+  "version": "1.0.0",
+  "description": "Comparing dialogue memory strategies for multi-turn travel planning using TypeScript, LLMs, and SISU",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamithamuraleedharan/dialogue-memory-travel-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamithamuraleedharan/dialogue-memory-travel-planner/issues"
+  },
+  "homepage": "https://github.com/mamithamuraleedharan/dialogue-memory-travel-planner#readme",
+  "dependencies": {
+    "@statelyai/inspect": "^0.7.2",
+    "speechstate": "^2.17.0",
+    "xstate": "^5.33.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
