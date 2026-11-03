@@ -2,8 +2,8 @@ import type { DialogueTurn } from "../dialogue/types";
 
 
 export function addTurn(
-history: DialogueTurn[],
-    turn: DialogueTurn // new message we are adding
+                history: DialogueTurn[], // converstation history
+                turn: DialogueTurn // one new turn
 ): DialogueTurn[] { 
     return [...history, turn];
 }
