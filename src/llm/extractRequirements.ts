@@ -28,9 +28,10 @@ export async function extractRequirements(
             ...messages
         ],
         response_format: { type: "json_object" }, // result as json output
-        temperature: 1 // 0- most accurate
+        temperature: 0 // 0- most accurate
     });
     const content = response.choices[0]?.message?.content; // extract only the json part
+    console.log("Raw extraction response:", content);
     
     // error checks
     if (!content) {

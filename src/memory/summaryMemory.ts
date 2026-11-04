@@ -12,7 +12,7 @@ export async function updateSummary(
     
     const response = await ollamaClient.chat.completions.create({
         model: "llama3.1",
-        temperature: 1,
+        temperature: 0,
         messages: [
             {
                 role: "system",

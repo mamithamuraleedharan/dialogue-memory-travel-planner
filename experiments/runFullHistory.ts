@@ -1,12 +1,26 @@
-//import { parisCorrection01 } from "../data/paris-correction-01";
+import { parisCorrection01 } from "../data/paris-correction-01";
 import { romeLongCorrection01 } from "../data/rome-long-correction-01";
+import { spainSemiSynthetic01 } from "../data/spain-semisynthetic-01";
 import { addTurn } from "../src/memory/fullHistory";
 import type { DialogueTurn } from "../src/dialogue/types";
 import { extractRequirements } from "../src/llm/extractRequirements";
 import { evaluateRequirements } from "./evaluate";
 
-//const testCase = parisCorrection01;
-const testCase = romeLongCorrection01;
+
+const datasets = {
+    paris: parisCorrection01,
+    rome: romeLongCorrection01,
+    spain: spainSemiSynthetic01
+};
+
+const datasetName = process.env.DATASET ?? "paris";
+
+if (!(datasetName in datasets)) {
+    throw new Error(`Unknown dataset: ${datasetName}`);
+}
+
+const testCase = datasets[datasetName as keyof typeof datasets];
+
 
 let history: DialogueTurn[] = [];
 
