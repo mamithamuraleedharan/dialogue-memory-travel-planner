@@ -1,0 +1,1039 @@
+Experiment: spain, Temperature: 0
+Run 1
+Total dialogue turns: 79
+Raw extraction response: { 
+"destination": "Spain", 
+"startDate": "2027-06-03", 
+"durationDays": 5, 
+"budget": 3000, 
+"interests": ["local cuisine", "public transport"], 
+"transport": "local buses", 
+"travelers": 7 
+}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Spain',
+  startDate: '2027-06-03',
+  transport: 'local buses',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'local cuisine', 'public transport' ]
+}
+
+Full History Evaluation:
+Correct: 5/7
+Overall Accuracy: 71.43%
+FullHistory Run 1: 71.43% (18s)
+Run 2
+Total dialogue turns: 79
+Raw extraction response: { 
+"destination": "Spain", 
+"startDate": "2027-06-03", 
+"durationDays": 5, 
+"budget": 3000, 
+"interests": ["local cuisine", "public transport"], 
+"transport": "local buses", 
+"travelers": 7 
+}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Spain',
+  startDate: '2027-06-03',
+  transport: 'local buses',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'local cuisine', 'public transport' ]
+}
+
+Full History Evaluation:
+Correct: 5/7
+Overall Accuracy: 71.43%
+FullHistory Run 2: 71.43% (13s)
+Run 3
+Total dialogue turns: 79
+Raw extraction response: { 
+"destination": "Spain", 
+"startDate": "2027-06-03", 
+"durationDays": 5, 
+"budget": 3000, 
+"interests": ["local cuisine", "public transport"], 
+"transport": "local buses", 
+"travelers": 7 
+}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Spain',
+  startDate: '2027-06-03',
+  transport: 'local buses',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'local cuisine', 'public transport' ]
+}
+
+Full History Evaluation:
+Correct: 5/7
+Overall Accuracy: 71.43%
+FullHistory Run 3: 71.43% (17s)
+Run 4
+Total dialogue turns: 79
+Raw extraction response: { 
+"destination": "Spain", 
+"startDate": "2027-06-03", 
+"durationDays": 5, 
+"budget": 3000, 
+"interests": ["local cuisine", "public transport"], 
+"transport": "local buses", 
+"travelers": 7 
+}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Spain',
+  startDate: '2027-06-03',
+  transport: 'local buses',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'local cuisine', 'public transport' ]
+}
+
+Full History Evaluation:
+Correct: 5/7
+Overall Accuracy: 71.43%
+FullHistory Run 4: 71.43% (13s)
+Run 5
+Total dialogue turns: 79
+Raw extraction response: { 
+"destination": "Spain", 
+"startDate": "2027-06-03", 
+"durationDays": 5, 
+"budget": 3000, 
+"interests": ["local cuisine", "public transport"], 
+"transport": "local buses", 
+"travelers": 7 
+}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Spain',
+  startDate: '2027-06-03',
+  transport: 'local buses',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'local cuisine', 'public transport' ]
+}
+
+Full History Evaluation:
+Correct: 5/7
+Overall Accuracy: 71.43%
+FullHistory Run 5: 71.43% (16s)
+-----------------------------------
+FullHistory timing summary:
+Total time: 77s
+Average per run: 15.40s
+-----------------------------------
+Run 1
+Final Summary:
+The user is planning a family trip to Spain, with travel dates set for June 3rd, 2027. The group consists of 6-7 people, including themselves, their husband, mom, dad, and three sisters. The trip duration is 5 days. Budget is a priority, and they're considering cost-saving options like local buses, trains, and simple accommodations like hostels or apartment rentals. The destination is narrowed down to Madrid, with its free museums and parks being a consideration. The estimated budget for the trip is around 3,000 euros, as the user has revised their initial estimate of 5,000 euros. They're leaning towards simple travel arrangements, with one bag per person, local food, and easy transportation. They'll use public transport, specifically local buses, and stay near a metro stop for easy access.
+Raw extraction response: {
+  "destination": "Madrid",
+  "startDate": "2027-06-03",
+  "durationDays": 5,
+  "budget": 3000,
+  "interests": ["free museums", "parks"],
+  "transport": "local buses, trains",
+  "travelers": 7
+}
+
+Extracted Requirements:
+{
+  destination: 'Madrid',
+  startDate: '2027-06-03',
+  transport: 'local buses, trains',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'free museums', 'parks' ]
+}
+
+Summary Memory Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Summary Run 1: 57.14% (128s)
+Run 2
+Final Summary:
+The user is planning a family trip to Spain with their husband, parents, and three sisters, likely in June 2027, with a specific date of June 3rd. They're considering a 5-day trip, prioritizing a budget-friendly trip with a budget of around 3,000 euros. They're open to exploring alternative transportation options, specifically local buses and trains, and plan to use public transport in Madrid, where they're drawn to its cool parks and free museums. They're aiming for simple travel with minimal luggage, local food, and easy transportation, and are looking for simple accommodations near a metro stop.
+Raw extraction response: {
+  "destination": "Spain",
+  "startDate": "2027-06-03",
+  "durationDays": 5,
+  "budget": 3000,
+  "interests": ["cool parks", "free museums"],
+  "transport": ["local buses", "trains", "public transport"],
+  "travelers": 7
+}
+Error: Invalid value for transport
+    at extractRequirements (/mnt/c/Users/mamit/Desktop/LT/Year 2/ds_project/dialogue-memory-travel-planner/src/llm/extractRequirements.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async runSummaryExperiment (/mnt/c/Users/mamit/Desktop/LT/Year 2/ds_project/dialogue-memory-travel-planner/experiments/runSummary.ts:31:23)
+Summary Run 2: FAILED (126s)
+Run 3
+Final Summary:
+The user is planning a family trip to Spain with their husband, parents, and three sisters, likely in June 2027, with a specific date of June 3rd. They're prioritizing a budget-friendly trip, with a budget of around 3,000 euros. They're open to exploring alternative transportation options, such as local buses and trains, to minimize costs. They're considering visiting Madrid, drawn to its parks and free museums, and are looking to spend a leisurely time in the city. They're aiming for simple travel with minimal luggage, local food, and easy transportation. They plan to use public transport in the city, staying near a metro stop for easy access. The trip will be 5 days long.
+Raw extraction response: {
+  "destination": "Spain",
+  "startDate": "2027-06-03",
+  "durationDays": 5,
+  "budget": 3000,
+  "interests": ["parks", "free museums"],
+  "transport": "public transport",
+  "travelers": 6
+}
+
+Extracted Requirements:
+{
+  destination: 'Spain',
+  startDate: '2027-06-03',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 6,
+  interests: [ 'parks', 'free museums' ]
+}
+
+Summary Memory Evaluation:
+Correct: 5/7
+Overall Accuracy: 71.43%
+Summary Run 3: 71.43% (114s)
+Run 4
+Final Summary:
+The user is planning a family trip to Spain with their husband, parents, and three sisters in June 2027, likely starting on June 3rd, for a 5-day trip. They're prioritizing a budget-friendly trip with a budget of around 3,000 euros. They're open to exploring alternative transportation options, such as local buses and trains, to avoid flights. Their main destination is Madrid, drawn by its parks and free museums, and they're focusing on one main city to avoid feeling rushed. They're considering simple travel arrangements, packing light with one bag each, eating local food, and using easy transportation methods, including local buses and trains, with a preference for staying near a metro stop.
+Raw extraction response: {
+  "destination": "Madrid",
+  "startDate": "2027-06-03",
+  "durationDays": 5,
+  "budget": 3000,
+  "interests": ["parks", "free museums"],
+  "transport": "local buses and trains",
+  "travelers": 7
+}
+
+Extracted Requirements:
+{
+  destination: 'Madrid',
+  startDate: '2027-06-03',
+  transport: 'local buses and trains',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'parks', 'free museums' ]
+}
+
+Summary Memory Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Summary Run 4: 57.14% (119s)
+Run 5
+Final Summary:
+The user is planning a family trip to Spain with their husband, parents, and three sisters in June 2027, likely starting on June 3rd, for a 5-day trip. They're prioritizing a budget-friendly trip with a budget of around 3,000 euros. They're open to exploring alternative transportation options, such as local buses and trains, to avoid flights. Their main destination is Madrid, drawn to its parks and free museums, and they're focusing on one main city to avoid feeling rushed. They're considering simple travel arrangements, packing light with one bag each, eating local food, and using easy transportation methods, including local buses and trains, with a preference for staying near a metro stop.
+Raw extraction response: {
+  "destination": "Madrid",
+  "startDate": "2027-06-03",
+  "durationDays": 5,
+  "budget": 3000,
+  "interests": ["parks", "free museums"],
+  "transport": "local buses and trains",
+  "travelers": 7
+}
+
+Extracted Requirements:
+{
+  destination: 'Madrid',
+  startDate: '2027-06-03',
+  transport: 'local buses and trains',
+  durationDays: 5,
+  budget: 3000,
+  travelers: 7,
+  interests: [ 'parks', 'free museums' ]
+}
+
+Summary Memory Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Summary Run 5: 57.14% (115s)
+-----------------------------------
+Summary timing summary:
+Total time: 603s
+Average per run: 120.60s
+-----------------------------------
+Run 1
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'some place' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'destination' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Spain' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: 'June' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'budget' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'friendly' },
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'with my family' }
+  },
+  { type: 'ask', content: { type: 'whq', predicate: 'destination' } }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'add', content: { predicate: 'travelers', argument: '4' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'sister' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'trains and buses' },
+  { type: 'answer', content: 'simple hotels or hostels' },
+  { type: 'answer', content: 'apartment rental' },
+  { type: 'answer', content: 'four people' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'Mm, okay, so like' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'tapas' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'local food' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Spanish cuisine' },
+  {
+    type: 'correct',
+    content: { predicate: 'destination', argument: 'Spain' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'warm, sunny' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Madrid' },
+  { type: 'answer', content: 'Barcelona' },
+  { type: 'answer', content: 'beach' },
+  { type: 'answer', content: 'city' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'interests' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '7' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'much more' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-06-03' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'summer' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: "June in Spain's perfect" } ]
+Validated dialogue moves: [ { type: 'answer', content: 'sunny' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Madrid or Barcelona' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'with my family' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'simple travel, one bag each, local food, and easy transport'
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'local buses' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'local buses are good' },
+  { type: 'answer', content: 'trains too' },
+  { type: 'answer', content: 'for a family' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5 days' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'or' } ]
+Validated dialogue moves: [ { type: 'answer', content: '3000' } ]
+Final SISU Information State:
+[
+  { predicate: 'startDate', argument: 'June' },
+  { predicate: 'transport', argument: 'with my family' },
+  { predicate: 'destination', argument: 'Spain' },
+  { predicate: 'travelers', argument: '7' }
+]
+
+Extracted SISU Requirements:
+{
+  startDate: 'June',
+  transport: 'with my family',
+  destination: 'Spain',
+  travelers: 7
+}
+
+SISU Evaluation:
+Correct: 2/7
+Overall Accuracy: 28.57%
+Sisu Run 1: 28.57% (94s)
+Run 2
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'some place' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'destination' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Spain' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: 'June' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'budget' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'friendly' },
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'with my family' }
+  },
+  { type: 'ask', content: { type: 'whq', predicate: 'destination' } }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'add', content: { predicate: 'travelers', argument: '4' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'sister' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'trains and buses' },
+  { type: 'answer', content: 'simple hotels or hostels' },
+  { type: 'answer', content: 'apartment rental' },
+  { type: 'answer', content: 'four people' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'Mm, okay, so like' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'tapas' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'local food' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Spanish cuisine' },
+  {
+    type: 'correct',
+    content: { predicate: 'destination', argument: 'Spain' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'warm, sunny' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Madrid' },
+  { type: 'answer', content: 'Barcelona' },
+  { type: 'answer', content: 'beach' },
+  { type: 'answer', content: 'city' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'interests' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '7' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'much more' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-06-03' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'summer' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: "June in Spain's perfect" } ]
+Validated dialogue moves: [ { type: 'answer', content: 'sunny' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Madrid or Barcelona' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'with my family' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'simple travel, one bag each, local food, and easy transport'
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'local buses' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'local buses are good' },
+  { type: 'answer', content: 'trains too' },
+  { type: 'answer', content: 'for a family' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5 days' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'or' } ]
+Validated dialogue moves: [ { type: 'answer', content: '3000' } ]
+Final SISU Information State:
+[
+  { predicate: 'startDate', argument: 'June' },
+  { predicate: 'transport', argument: 'with my family' },
+  { predicate: 'destination', argument: 'Spain' },
+  { predicate: 'travelers', argument: '7' }
+]
+
+Extracted SISU Requirements:
+{
+  startDate: 'June',
+  transport: 'with my family',
+  destination: 'Spain',
+  travelers: 7
+}
+
+SISU Evaluation:
+Correct: 2/7
+Overall Accuracy: 28.57%
+Sisu Run 2: 28.57% (95s)
+Run 3
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'some place' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'destination' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Spain' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: 'June' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'budget' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'friendly' },
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'with my family' }
+  },
+  { type: 'ask', content: { type: 'whq', predicate: 'destination' } }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'add', content: { predicate: 'travelers', argument: '4' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'sister' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'trains and buses' },
+  { type: 'answer', content: 'simple hotels or hostels' },
+  { type: 'answer', content: 'apartment rental' },
+  { type: 'answer', content: 'four people' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'Mm, okay, so like' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'tapas' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'local food' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Spanish cuisine' },
+  {
+    type: 'correct',
+    content: { predicate: 'destination', argument: 'Spain' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'warm, sunny' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Madrid' },
+  { type: 'answer', content: 'Barcelona' },
+  { type: 'answer', content: 'beach' },
+  { type: 'answer', content: 'city' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'interests' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '7' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'much more' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-06-03' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'summer' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: "June in Spain's perfect" } ]
+Validated dialogue moves: [ { type: 'answer', content: 'sunny' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Madrid or Barcelona' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'with my family' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'simple travel, one bag each, local food, and easy transport'
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'local buses' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'local buses are good' },
+  { type: 'answer', content: 'trains too' },
+  { type: 'answer', content: 'for a family' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5 days' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'or' } ]
+Validated dialogue moves: [ { type: 'answer', content: '3000' } ]
+Final SISU Information State:
+[
+  { predicate: 'startDate', argument: 'June' },
+  { predicate: 'transport', argument: 'with my family' },
+  { predicate: 'destination', argument: 'Spain' },
+  { predicate: 'travelers', argument: '7' }
+]
+
+Extracted SISU Requirements:
+{
+  startDate: 'June',
+  transport: 'with my family',
+  destination: 'Spain',
+  travelers: 7
+}
+
+SISU Evaluation:
+Correct: 2/7
+Overall Accuracy: 28.57%
+Sisu Run 3: 28.57% (98s)
+Run 4
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'some place' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'destination' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Spain' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: 'June' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'budget' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'friendly' },
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'with my family' }
+  },
+  { type: 'ask', content: { type: 'whq', predicate: 'destination' } }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'add', content: { predicate: 'travelers', argument: '4' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'sister' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'trains and buses' },
+  { type: 'answer', content: 'simple hotels or hostels' },
+  { type: 'answer', content: 'apartment rental' },
+  { type: 'answer', content: 'four people' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'Mm, okay, so like' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'tapas' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'local food' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Spanish cuisine' },
+  {
+    type: 'correct',
+    content: { predicate: 'destination', argument: 'Spain' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'warm, sunny' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Madrid' },
+  { type: 'answer', content: 'Barcelona' },
+  { type: 'answer', content: 'beach' },
+  { type: 'answer', content: 'city' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'interests' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '7' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'much more' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-06-03' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'summer' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: "June in Spain's perfect" } ]
+Validated dialogue moves: [ { type: 'answer', content: 'sunny' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Madrid or Barcelona' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'with my family' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'simple travel, one bag each, local food, and easy transport'
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'local buses' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'local buses are good' },
+  { type: 'answer', content: 'trains too' },
+  { type: 'answer', content: 'for a family' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5 days' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'or' } ]
+Validated dialogue moves: [ { type: 'answer', content: '3000' } ]
+Final SISU Information State:
+[
+  { predicate: 'startDate', argument: 'June' },
+  { predicate: 'transport', argument: 'with my family' },
+  { predicate: 'destination', argument: 'Spain' },
+  { predicate: 'travelers', argument: '7' }
+]
+
+Extracted SISU Requirements:
+{
+  startDate: 'June',
+  transport: 'with my family',
+  destination: 'Spain',
+  travelers: 7
+}
+
+SISU Evaluation:
+Correct: 2/7
+Overall Accuracy: 28.57%
+Sisu Run 4: 28.57% (96s)
+Run 5
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'some place' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'destination' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Spain' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'December' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: 'June' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'June' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'budget' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'friendly' },
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'with my family' }
+  },
+  { type: 'ask', content: { type: 'whq', predicate: 'destination' } }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'add', content: { predicate: 'travelers', argument: '4' } } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'sister' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'trains and buses' },
+  { type: 'answer', content: 'simple hotels or hostels' },
+  { type: 'answer', content: 'apartment rental' },
+  { type: 'answer', content: 'four people' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'Mm, okay, so like' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Paris' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'tapas' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'local food' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Spanish cuisine' },
+  {
+    type: 'correct',
+    content: { predicate: 'destination', argument: 'Spain' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'warm, sunny' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  { type: 'answer', content: 'Madrid' },
+  { type: 'answer', content: 'Barcelona' },
+  { type: 'answer', content: 'beach' },
+  { type: 'answer', content: 'city' },
+  { type: 'ask', content: { type: 'whq', predicate: 'interests' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'interests' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '7' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '5000' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'much more' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-06-03' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'summer' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: "June in Spain's perfect" } ]
+Validated dialogue moves: [ { type: 'answer', content: 'sunny' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'Madrid or Barcelona' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'with my family' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'simple travel, one bag each, local food, and easy transport'
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [ { type: 'answer', content: 'local buses' } ]
+Validated dialogue moves: [
+  { type: 'answer', content: 'local buses are good' },
+  { type: 'answer', content: 'trains too' },
+  { type: 'answer', content: 'for a family' }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5' } ]
+Validated dialogue moves: [ { type: 'answer', content: '5 days' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'or' } ]
+Validated dialogue moves: [ { type: 'answer', content: '3000' } ]
+Final SISU Information State:
+[
+  { predicate: 'startDate', argument: 'June' },
+  { predicate: 'transport', argument: 'with my family' },
+  { predicate: 'destination', argument: 'Spain' },
+  { predicate: 'travelers', argument: '7' }
+]
+
+Extracted SISU Requirements:
+{
+  startDate: 'June',
+  transport: 'with my family',
+  destination: 'Spain',
+  travelers: 7
+}
+
+SISU Evaluation:
+Correct: 2/7
+Overall Accuracy: 28.57%
+Sisu Run 5: 28.57% (93s)
+-----------------------------------
+Sisu timing summary:
+Total time: 476s
+Average per run: 95.20s
+-----------------------------------
+MEAN ACCURACY — spain
+Summary: 60.71% (4 successful runs)
+Sisu: 28.57% (5 successful runs)
+FullHistory: 71.43% (5 successful runs)

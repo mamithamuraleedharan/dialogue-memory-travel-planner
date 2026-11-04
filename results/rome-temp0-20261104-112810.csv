@@ -1,0 +1,16 @@
+dataset,strategy,trial,accuracy,duration_seconds,status
+rome,FullHistory,1,85.71,15,success
+rome,FullHistory,2,85.71,11,success
+rome,FullHistory,3,85.71,14,success
+rome,FullHistory,4,85.71,12,success
+rome,FullHistory,5,85.71,14,success
+rome,Summary,1,85.71,86,success
+rome,Summary,2,85.71,85,success
+rome,Summary,3,85.71,87,success
+rome,Summary,4,85.71,86,success
+rome,Summary,5,85.71,86,success
+rome,Sisu,1,57.14,70,success
+rome,Sisu,2,57.14,73,success
+rome,Sisu,3,57.14,71,success
+rome,Sisu,4,57.14,67,success
+rome,Sisu,5,57.14,69,success

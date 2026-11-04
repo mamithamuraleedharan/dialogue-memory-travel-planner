@@ -1,0 +1,710 @@
+Experiment: paris, Temperature: 0
+Run 1
+Total dialogue turns: 19
+Raw extraction response: {"destination": "Paris", "startDate": "2026-12-10", "durationDays": 5, "budget": 600, "interests": ["museums", "historical places"], "transport": "public transport", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 1: 85.71% (25s)
+Run 2
+Total dialogue turns: 19
+Raw extraction response: {"destination": "Paris", "startDate": "2026-12-10", "durationDays": 5, "budget": 600, "interests": ["museums", "historical places"], "transport": "public transport", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 2: 85.71% (16s)
+Run 3
+Total dialogue turns: 19
+Raw extraction response: {"destination": "Paris", "startDate": "2026-12-10", "durationDays": 5, "budget": 600, "interests": ["museums", "historical places"], "transport": "public transport", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 3: 85.71% (12s)
+Run 4
+Total dialogue turns: 19
+Raw extraction response: {"destination": "Paris", "startDate": "2026-12-10", "durationDays": 5, "budget": 600, "interests": ["museums", "historical places"], "transport": "public transport", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 4: 85.71% (15s)
+Run 5
+Total dialogue turns: 19
+Raw extraction response: {"destination": "Paris", "startDate": "2026-12-10", "durationDays": 5, "budget": 600, "interests": ["museums", "historical places"], "transport": "public transport", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 5: 85.71% (13s)
+-----------------------------------
+FullHistory timing summary:
+Total time: 81s
+Average per run: 16.20s
+-----------------------------------
+Run 1
+Final Summary:
+Here's the updated summary:
+
+We're planning a 5-day trip to Paris, departing on December 10, 2026, with a total budget of €600 for three travelers. You're interested in visiting museums and historical places, and prefer using public transport. I'll create a travel itinerary for you.
+Raw extraction response: {
+  "destination": "Paris",
+  "startDate": "2026-12-10",
+  "durationDays": 5,
+  "budget": 600,
+  "interests": ["museums", "historical places"],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 1: 85.71% (28s)
+Run 2
+Final Summary:
+Here's the updated summary:
+
+We're planning a 5-day trip to Paris, departing on December 10, 2026, with a total budget of €600 for three travelers. You're interested in visiting museums and historical places, and prefer using public transport. I'll create a travel itinerary for you.
+Raw extraction response: {
+  "destination": "Paris",
+  "startDate": "2026-12-10",
+  "durationDays": 5,
+  "budget": 600,
+  "interests": ["museums", "historical places"],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 2: 85.71% (28s)
+Run 3
+Final Summary:
+Here's the updated summary:
+
+We're planning a 5-day trip to Paris, departing on December 10, 2026, with a total budget of €600 for three travelers. You're interested in visiting museums and historical places, and prefer using public transport. I'll create a travel itinerary for you.
+Raw extraction response: {
+  "destination": "Paris",
+  "startDate": "2026-12-10",
+  "durationDays": 5,
+  "budget": 600,
+  "interests": ["museums", "historical places"],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 3: 85.71% (27s)
+Run 4
+Final Summary:
+Here's the updated summary:
+
+We're planning a 5-day trip to Paris, departing on December 10, 2026, with a total budget of €600 for three travelers. You're interested in visiting museums and historical places, and prefer using public transport. I'll create a travel itinerary for you.
+Raw extraction response: {
+  "destination": "Paris",
+  "startDate": "2026-12-10",
+  "durationDays": 5,
+  "budget": 600,
+  "interests": ["museums", "historical places"],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 4: 85.71% (30s)
+Run 5
+Final Summary:
+Here's the updated summary:
+
+We're planning a 5-day trip to Paris, departing on December 10, 2026, with a total budget of €600 for three travelers. You're interested in visiting museums and historical places, and prefer using public transport. I'll create a travel itinerary for you.
+Raw extraction response: {
+  "destination": "Paris",
+  "startDate": "2026-12-10",
+  "durationDays": 5,
+  "budget": 600,
+  "interests": ["museums", "historical places"],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  transport: 'public transport',
+  durationDays: 5,
+  budget: 600,
+  travelers: 3,
+  interests: [ 'museums', 'historical places' ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 5: 85.71% (32s)
+-----------------------------------
+Summary timing summary:
+Total time: 147s
+Average per run: 29.40s
+-----------------------------------
+Run 1
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Paris' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2026-12-10' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'durationDays', argument: '5' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '800' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'historical places' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'public' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Paris' },
+  { predicate: 'startDate', argument: '2026-12-10' },
+  { predicate: 'durationDays', argument: '5' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'historical places' },
+  { predicate: 'transport', argument: 'public' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  durationDays: 5,
+  interests: [ 'museums', 'historical places' ],
+  transport: 'public',
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 1: 57.14% (34s)
+Run 2
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Paris' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2026-12-10' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'durationDays', argument: '5' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '800' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'historical places' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'public' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Paris' },
+  { predicate: 'startDate', argument: '2026-12-10' },
+  { predicate: 'durationDays', argument: '5' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'historical places' },
+  { predicate: 'transport', argument: 'public' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  durationDays: 5,
+  interests: [ 'museums', 'historical places' ],
+  transport: 'public',
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 2: 57.14% (32s)
+Run 3
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Paris' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2026-12-10' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'durationDays', argument: '5' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '800' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'historical places' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'public' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Paris' },
+  { predicate: 'startDate', argument: '2026-12-10' },
+  { predicate: 'durationDays', argument: '5' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'historical places' },
+  { predicate: 'transport', argument: 'public' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  durationDays: 5,
+  interests: [ 'museums', 'historical places' ],
+  transport: 'public',
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 3: 57.14% (33s)
+Run 4
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Paris' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2026-12-10' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'durationDays', argument: '5' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '800' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'historical places' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'public' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Paris' },
+  { predicate: 'startDate', argument: '2026-12-10' },
+  { predicate: 'durationDays', argument: '5' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'historical places' },
+  { predicate: 'transport', argument: 'public' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  durationDays: 5,
+  interests: [ 'museums', 'historical places' ],
+  transport: 'public',
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 4: 57.14% (31s)
+Run 5
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Paris' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2026-12-10' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'durationDays', argument: '5' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: '800' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'historical places' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'transport', argument: 'public' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: [ { type: 'answer', content: '600' } ]
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Paris' },
+  { predicate: 'startDate', argument: '2026-12-10' },
+  { predicate: 'durationDays', argument: '5' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'historical places' },
+  { predicate: 'transport', argument: 'public' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Paris',
+  startDate: '2026-12-10',
+  durationDays: 5,
+  interests: [ 'museums', 'historical places' ],
+  transport: 'public',
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 5: 57.14% (31s)
+-----------------------------------
+Sisu timing summary:
+Total time: 162s
+Average per run: 32.40s
+-----------------------------------
+MEAN ACCURACY — paris
+Summary: 85.71% (5 successful runs)
+Sisu: 57.14% (5 successful runs)
+FullHistory: 85.71% (5 successful runs)

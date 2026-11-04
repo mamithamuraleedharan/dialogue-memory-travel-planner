@@ -1,0 +1,1085 @@
+Experiment: rome, Temperature: 0
+Run 1
+Total dialogue turns: 50
+Raw extraction response: {"destination": "Rome", "startDate": "2027-03-15", "durationDays": 6, "budget": 900, "interests": ["museums", "architecture"], "transport": "public", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [ 'museums', 'architecture' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 1: 85.71% (15s)
+Run 2
+Total dialogue turns: 50
+Raw extraction response: {"destination": "Rome", "startDate": "2027-03-15", "durationDays": 6, "budget": 900, "interests": ["museums", "architecture"], "transport": "public", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [ 'museums', 'architecture' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 2: 85.71% (11s)
+Run 3
+Total dialogue turns: 50
+Raw extraction response: {"destination": "Rome", "startDate": "2027-03-15", "durationDays": 6, "budget": 900, "interests": ["museums", "architecture"], "transport": "public", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [ 'museums', 'architecture' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 3: 85.71% (14s)
+Run 4
+Total dialogue turns: 50
+Raw extraction response: {"destination": "Rome", "startDate": "2027-03-15", "durationDays": 6, "budget": 900, "interests": ["museums", "architecture"], "transport": "public", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [ 'museums', 'architecture' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 4: 85.71% (12s)
+Run 5
+Total dialogue turns: 50
+Raw extraction response: {"destination": "Rome", "startDate": "2027-03-15", "durationDays": 6, "budget": 900, "interests": ["museums", "architecture"], "transport": "public", "travelers": 3}
+
+Extracted Requirements by the LLM:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [ 'museums', 'architecture' ]
+}
+
+Full History Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+FullHistory Run 5: 85.71% (14s)
+-----------------------------------
+FullHistory timing summary:
+Total time: 66s
+Average per run: 13.20s
+-----------------------------------
+Run 1
+Final Summary:
+Here's a summary of our travel plans:
+
+We're planning a 6-day trip to Rome, departing on March 15, 2027, with a total budget of around €900, for three travelers. They're interested in visiting museums, admiring the city's architecture, trying the local cuisine, and exploring the city's old streets on foot. They plan to use public transport, which is easily accessible in Rome with buses, metro lines, and trams available. Booking tickets for popular attractions in advance is recommended, including the Vatican Museums. Staying centrally is suggested to make it easier to reach many attractions, and visiting the Trevi Fountain early in the morning is recommended to minimize crowds. They also want to leave some free time in their schedule to make the trip more enjoyable.
+Raw extraction response: {
+  "destination": "Rome",
+  "startDate": "2027-03-15",
+  "durationDays": 6,
+  "budget": 900,
+  "interests": [
+    "museums",
+    "architecture",
+    "local cuisine",
+    "exploring old streets"
+  ],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public transport',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [
+    'museums',
+    'architecture',
+    'local cuisine',
+    'exploring old streets'
+  ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 1: 85.71% (86s)
+Run 2
+Final Summary:
+Here's a summary of our travel plans:
+
+We're planning a 6-day trip to Rome, departing on March 15, 2027, with a total budget of around €900, for three travelers. They're interested in visiting museums, admiring the city's architecture, trying the local cuisine, and exploring the old streets on foot. They plan to use public transport, which is easily accessible in Rome, and have booked tickets in advance for popular attractions like the Vatican Museums. They're considering staying centrally to make it easier to reach many attractions and have left some free time in their schedule to maintain flexibility.
+Raw extraction response: {
+  "destination": "Rome",
+  "startDate": "2027-03-15",
+  "durationDays": 6,
+  "budget": 900,
+  "interests": [
+    "museums",
+    "architecture",
+    "local cuisine",
+    "exploring old streets"
+  ],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public transport',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [
+    'museums',
+    'architecture',
+    'local cuisine',
+    'exploring old streets'
+  ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 2: 85.71% (85s)
+Run 3
+Final Summary:
+Here's a summary of our travel plans:
+
+We're planning a 6-day trip to Rome, departing on March 15, 2027, with a total budget of around €900, for three travelers. They're interested in visiting museums, admiring the city's architecture, trying the local cuisine, and exploring the old streets on foot. They plan to use public transport, which is easily accessible in Rome, and have booked tickets in advance for popular attractions like the Vatican Museums. They're considering visiting the Trevi Fountain early in the morning to avoid crowds. Staying centrally is recommended to make it easier to reach many attractions. They'll leave some free time in their schedule to maintain flexibility and enjoy the trip without overplanning.
+Raw extraction response: {
+  "destination": "Rome",
+  "startDate": "2027-03-15",
+  "durationDays": 6,
+  "budget": 900,
+  "interests": [
+    "museums",
+    "architecture",
+    "local cuisine",
+    "exploring old streets"
+  ],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public transport',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [
+    'museums',
+    'architecture',
+    'local cuisine',
+    'exploring old streets'
+  ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 3: 85.71% (87s)
+Run 4
+Final Summary:
+Here's a summary of our travel plans:
+
+We're planning a 6-day trip to Rome, departing on March 15, 2027, with a total budget of around €900, for three travelers. They're interested in visiting museums, admiring the city's architecture, trying the local cuisine, and exploring the old streets on foot. They plan to use public transport, which is easily accessible in Rome, and have booked tickets in advance for popular attractions like the Vatican Museums. They're considering visiting the Trevi Fountain early in the morning to avoid crowds. Staying centrally is recommended to make it easier to reach many attractions. They'll leave some free time in their schedule to maintain flexibility and enjoy the trip without overplanning.
+Raw extraction response: {
+  "destination": "Rome",
+  "startDate": "2027-03-15",
+  "durationDays": 6,
+  "budget": 900,
+  "interests": [
+    "museums",
+    "architecture",
+    "local cuisine",
+    "exploring old streets"
+  ],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public transport',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [
+    'museums',
+    'architecture',
+    'local cuisine',
+    'exploring old streets'
+  ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 4: 85.71% (86s)
+Run 5
+Final Summary:
+Here's a summary of our travel plans:
+
+We're planning a 6-day trip to Rome, departing on March 15, 2027, with a total budget of around €900, for three travelers. They're interested in visiting museums, admiring the city's architecture, trying the local cuisine, and exploring the old streets on foot. They plan to use public transport, which is easily accessible in Rome, and have booked tickets in advance for popular attractions like the Vatican Museums. They're considering visiting the Trevi Fountain early in the morning to avoid crowds. Staying centrally is recommended to make it easier to reach many attractions. They'll leave some free time in their schedule to maintain flexibility and enjoy the trip without overplanning.
+Raw extraction response: {
+  "destination": "Rome",
+  "startDate": "2027-03-15",
+  "durationDays": 6,
+  "budget": 900,
+  "interests": [
+    "museums",
+    "architecture",
+    "local cuisine",
+    "exploring old streets"
+  ],
+  "transport": "public transport",
+  "travelers": 3
+}
+
+Extracted Requirements:
+{
+  destination: 'Rome',
+  startDate: '2027-03-15',
+  transport: 'public transport',
+  durationDays: 6,
+  budget: 900,
+  travelers: 3,
+  interests: [
+    'museums',
+    'architecture',
+    'local cuisine',
+    'exploring old streets'
+  ]
+}
+
+Summary Memory Evaluation:
+Correct: 6/7
+Overall Accuracy: 85.71%
+Summary Run 5: 85.71% (86s)
+-----------------------------------
+Summary timing summary:
+Total time: 431s
+Average per run: 86.20s
+-----------------------------------
+Run 1
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Rome' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2027-03-12' }
+  }
+]
+Validated dialogue moves: [
+  { type: 'ask', content: { type: 'whq', predicate: 'durationDays' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '2' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'architecture' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Rome has plenty of museums and beautiful historic buildings.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'Colosseum' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: "The Colosseum is one of Rome's most famous landmarks."
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Yes, Rome has buses, metro lines, and trams.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'The Trevi Fountain is a popular tourist destination, so it can be crowded, especially during peak travel seasons.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'old streets' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'walking' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Many do, although carrying a little cash can still be useful.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: '2027-03-19' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '3' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'centrally' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'They can be busy, so booking ahead is worth considering.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'afternoon' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'morning' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'none' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Rome' },
+  { predicate: 'durationDays', argument: '6' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'architecture' },
+  { predicate: 'interests', argument: 'Colosseum' },
+  { predicate: 'interests', argument: 'old streets' },
+  { predicate: 'startDate', argument: '2027-03-19' },
+  { predicate: 'budget', argument: '900' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Rome',
+  durationDays: 6,
+  interests: [ 'museums', 'architecture', 'Colosseum', 'old streets' ],
+  startDate: '2027-03-19',
+  budget: 900,
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 1: 57.14% (70s)
+Run 2
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Rome' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2027-03-12' }
+  }
+]
+Validated dialogue moves: [
+  { type: 'ask', content: { type: 'whq', predicate: 'durationDays' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '2' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'architecture' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Rome has plenty of museums and beautiful historic buildings.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'Colosseum' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: "The Colosseum is one of Rome's most famous landmarks."
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Yes, Rome has buses, metro lines, and trams.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'The Trevi Fountain is a popular tourist destination, so it can be crowded, especially during peak travel seasons.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'old streets' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'walking' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Many do, although carrying a little cash can still be useful.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: '2027-03-19' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '3' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'centrally' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'They can be busy, so booking ahead is worth considering.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'afternoon' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'morning' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'none' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Rome' },
+  { predicate: 'durationDays', argument: '6' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'architecture' },
+  { predicate: 'interests', argument: 'Colosseum' },
+  { predicate: 'interests', argument: 'old streets' },
+  { predicate: 'startDate', argument: '2027-03-19' },
+  { predicate: 'budget', argument: '900' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Rome',
+  durationDays: 6,
+  interests: [ 'museums', 'architecture', 'Colosseum', 'old streets' ],
+  startDate: '2027-03-19',
+  budget: 900,
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 2: 57.14% (73s)
+Run 3
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Rome' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2027-03-12' }
+  }
+]
+Validated dialogue moves: [
+  { type: 'ask', content: { type: 'whq', predicate: 'durationDays' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '2' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'architecture' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Rome has plenty of museums and beautiful historic buildings.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'Colosseum' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: "The Colosseum is one of Rome's most famous landmarks."
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Yes, Rome has buses, metro lines, and trams.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'The Trevi Fountain is a popular tourist destination, so it can be crowded, especially during peak travel seasons.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'old streets' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'walking' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Many do, although carrying a little cash can still be useful.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: '2027-03-19' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '3' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'centrally' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'They can be busy, so booking ahead is worth considering.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'afternoon' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'morning' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'none' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Rome' },
+  { predicate: 'durationDays', argument: '6' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'architecture' },
+  { predicate: 'interests', argument: 'Colosseum' },
+  { predicate: 'interests', argument: 'old streets' },
+  { predicate: 'startDate', argument: '2027-03-19' },
+  { predicate: 'budget', argument: '900' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Rome',
+  durationDays: 6,
+  interests: [ 'museums', 'architecture', 'Colosseum', 'old streets' ],
+  startDate: '2027-03-19',
+  budget: 900,
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 3: 57.14% (71s)
+Run 4
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Rome' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2027-03-12' }
+  }
+]
+Validated dialogue moves: [
+  { type: 'ask', content: { type: 'whq', predicate: 'durationDays' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '2' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'architecture' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Rome has plenty of museums and beautiful historic buildings.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'Colosseum' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: "The Colosseum is one of Rome's most famous landmarks."
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Yes, Rome has buses, metro lines, and trams.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'The Trevi Fountain is a popular tourist destination, so it can be crowded, especially during peak travel seasons.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'old streets' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'walking' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Many do, although carrying a little cash can still be useful.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: '2027-03-19' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '3' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'centrally' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'They can be busy, so booking ahead is worth considering.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'afternoon' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'morning' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'none' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Rome' },
+  { predicate: 'durationDays', argument: '6' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'architecture' },
+  { predicate: 'interests', argument: 'Colosseum' },
+  { predicate: 'interests', argument: 'old streets' },
+  { predicate: 'startDate', argument: '2027-03-19' },
+  { predicate: 'budget', argument: '900' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Rome',
+  durationDays: 6,
+  interests: [ 'museums', 'architecture', 'Colosseum', 'old streets' ],
+  startDate: '2027-03-19',
+  budget: 900,
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 4: 57.14% (67s)
+Run 5
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'destination', argument: 'Rome' }
+  }
+]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'startDate', argument: '2027-03-12' }
+  }
+]
+Validated dialogue moves: [
+  { type: 'ask', content: { type: 'whq', predicate: 'durationDays' } }
+]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [ { type: 'answer', content: '6' } ]
+Validated dialogue moves: [
+  {
+    type: 'provide',
+    content: { predicate: 'travelers', argument: '2' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '2' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [ { type: 'answer', content: '1200' } ]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'museums' }
+  },
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'architecture' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Rome has plenty of museums and beautiful historic buildings.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'Colosseum' }
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: "The Colosseum is one of Rome's most famous landmarks."
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'transport' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Yes, Rome has buses, metro lines, and trams.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'public transport' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'The Trevi Fountain is a popular tourist destination, so it can be crowded, especially during peak travel seasons.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'yes' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'add',
+    content: { predicate: 'interests', argument: 'old streets' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'walking' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'Many do, although carrying a little cash can still be useful.'
+  }
+]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'startDate', argument: '2027-03-19' }
+  }
+]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'startDate' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'answer', content: '2027-03-15' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'budget' } } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [ { type: 'answer', content: '900' } ]
+Validated dialogue moves: [
+  {
+    type: 'correct',
+    content: { predicate: 'travelers', argument: '3' }
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: '3' } ]
+Validated dialogue moves: []
+Validated dialogue moves: [ { type: 'answer', content: 'centrally' } ]
+Validated dialogue moves: [ { type: 'ask', content: { type: 'whq', predicate: 'interests' } } ]
+Validated dialogue moves: [
+  {
+    type: 'answer',
+    content: 'They can be busy, so booking ahead is worth considering.'
+  }
+]
+Validated dialogue moves: [ { type: 'answer', content: 'afternoon' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'morning' } ]
+Validated dialogue moves: [ { type: 'answer', content: 'none' } ]
+Validated dialogue moves: []
+Validated dialogue moves: []
+Validated dialogue moves: []
+Final SISU Information State:
+[
+  { predicate: 'destination', argument: 'Rome' },
+  { predicate: 'durationDays', argument: '6' },
+  { predicate: 'interests', argument: 'museums' },
+  { predicate: 'interests', argument: 'architecture' },
+  { predicate: 'interests', argument: 'Colosseum' },
+  { predicate: 'interests', argument: 'old streets' },
+  { predicate: 'startDate', argument: '2027-03-19' },
+  { predicate: 'budget', argument: '900' },
+  { predicate: 'travelers', argument: '3' }
+]
+
+Extracted SISU Requirements:
+{
+  destination: 'Rome',
+  durationDays: 6,
+  interests: [ 'museums', 'architecture', 'Colosseum', 'old streets' ],
+  startDate: '2027-03-19',
+  budget: 900,
+  travelers: 3
+}
+
+SISU Evaluation:
+Correct: 4/7
+Overall Accuracy: 57.14%
+Sisu Run 5: 57.14% (69s)
+-----------------------------------
+Sisu timing summary:
+Total time: 350s
+Average per run: 70.00s
+-----------------------------------
+MEAN ACCURACY — rome
+Summary: 85.71% (5 successful runs)
+Sisu: 57.14% (5 successful runs)
+FullHistory: 85.71% (5 successful runs)

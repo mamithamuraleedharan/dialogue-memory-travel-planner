@@ -1,0 +1,16 @@
+dataset,strategy,trial,accuracy,duration_seconds,status
+paris,FullHistory,1,85.71,25,success
+paris,FullHistory,2,85.71,16,success
+paris,FullHistory,3,85.71,12,success
+paris,FullHistory,4,85.71,15,success
+paris,FullHistory,5,85.71,13,success
+paris,Summary,1,85.71,28,success
+paris,Summary,2,85.71,28,success
+paris,Summary,3,85.71,27,success
+paris,Summary,4,85.71,30,success
+paris,Summary,5,85.71,32,success
+paris,Sisu,1,57.14,34,success
+paris,Sisu,2,57.14,32,success
+paris,Sisu,3,57.14,33,success
+paris,Sisu,4,57.14,31,success
+paris,Sisu,5,57.14,31,success

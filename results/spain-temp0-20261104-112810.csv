@@ -1,0 +1,16 @@
+dataset,strategy,trial,accuracy,duration_seconds,status
+spain,FullHistory,1,71.43,18,success
+spain,FullHistory,2,71.43,13,success
+spain,FullHistory,3,71.43,17,success
+spain,FullHistory,4,71.43,13,success
+spain,FullHistory,5,71.43,16,success
+spain,Summary,1,57.14,128,success
+spain,Summary,2,,126,failed
+spain,Summary,3,71.43,114,success
+spain,Summary,4,57.14,119,success
+spain,Summary,5,57.14,115,success
+spain,Sisu,1,28.57,94,success
+spain,Sisu,2,28.57,95,success
+spain,Sisu,3,28.57,98,success
+spain,Sisu,4,28.57,96,success
+spain,Sisu,5,28.57,93,success
