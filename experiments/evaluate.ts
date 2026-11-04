@@ -1,7 +1,6 @@
 import type { TravelRequirements } from "../src/dialogue/types";
 
-
-
+// function to check if predicted = ground truth
 export function compareValues(
     expected: string | number | string[] | undefined,
     predicted: string | number | string[] | undefined

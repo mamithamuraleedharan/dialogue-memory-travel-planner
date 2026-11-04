@@ -16,7 +16,7 @@ export interface TravelRequirements{
 
 export interface DialogueTestCase{
     id : string;
-    category: "short_retention" | "long_retention" | "short_correction" | "long_correction";
+    category: "long_correction";
     dialogue : DialogueTurn[];
     expectedRequirements: TravelRequirements;
 }

@@ -1,13 +1,17 @@
-import { parisCorrection01 } from "../data/paris-correction-01";
+//import { parisCorrection01 } from "../data/paris-correction-01";
+import { romeLongCorrection01 } from "../data/rome-long-correction-01";
 import { addTurn } from "../src/memory/fullHistory";
 import type { DialogueTurn } from "../src/dialogue/types";
 import { extractRequirements } from "../src/llm/extractRequirements";
 import { evaluateRequirements } from "./evaluate";
 
+//const testCase = parisCorrection01;
+const testCase = romeLongCorrection01;
+
 let history: DialogueTurn[] = [];
 
 // calling addTurn function to build the conversation historry
-for (const turn of parisCorrection01.dialogue) {
+for (const turn of testCase.dialogue) {
     history = addTurn(history, turn);
 }
 
@@ -26,7 +30,7 @@ async function runFullHistoryExperiment() {
     console.log("\nExtracted Requirements by the LLM:");
     console.log(predicted);
 
-    const result = evaluateRequirements(parisCorrection01.expectedRequirements,predicted); // ground truth and predicted
+    const result = evaluateRequirements(testCase.expectedRequirements,predicted); // ground truth and predicted
 
     console.log("\nFull History Evaluation:");
     console.log(`Correct: ${result.correct}/${result.total}`);

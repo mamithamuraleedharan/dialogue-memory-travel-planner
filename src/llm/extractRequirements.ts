@@ -15,21 +15,20 @@ export async function extractRequirements(
             {
                 role: "system",
                 content: `Extract the current travel requirements from the conversation.
-                            Return a JSON object containing these fields when mentioned:
-                            destination, startDate, durationDays, budget, interests, transport, travelers.                    
-                            Rules:
-                            - Use the latest value if a requirement was corrected.
-                            - Preserve requirements that were not corrected.
-                            - Use YYYY-MM-DD for dates.
-                            - Use numbers for budget, durationDays, and travelers.
-                            - Use an array of strings for interests.
-                            - Omit fields that were never mentioned.
-                            - Return only valid JSON, without explanations or markdown.`
+                                Return a JSON object containing these fields when mentioned:
+                                destination, startDate, durationDays, budget, interests, transport, travelers.
+
+                                Formatting:
+                                - Dates: YYYY-MM-DD
+                                - Budget, durationDays, travelers: numbers
+                                - Interests: array of strings
+                                - Omit fields that were not mentioned.
+                                - Return only valid JSON.`
             },
             ...messages
         ],
         response_format: { type: "json_object" }, // result as json output
-        temperature: 0 // most accurate result
+        temperature: 1 // 0- most accurate
     });
     const content = response.choices[0]?.message?.content; // extract only the json part
     
