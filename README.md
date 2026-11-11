@@ -28,9 +28,30 @@ Three travel-planning dialogues were used:
 - Llama 3.1 
 
 
+## Project Structure
+
+```text
+dialogue-memory-travel-planner/
+├── data/                 # Travel-planning dialogue datasets
+├── src/
+│   ├── dialogue/         # SISU implementation and dialogue types
+│   ├── llm/              # Ollama connection and requirement extraction
+│   └── memory/           # Summary memory implementation
+├── experiments/
+│   ├── runFullHistory.ts # Full History experiment
+│   ├── runSummary.ts     # Rolling Summary experiment
+│   ├── runSisu.ts        # SISU experiment
+│   └── evaluate.ts      # Accuracy evaluation
+├── results/
+│   ├── analysis.ipynb    # Results analysis notebook
+│   ├── *.csv             # Experiment results
+│   └── *.png             # Result visualizations
+├── package.json
+└── README.md
+```
+
 ## Running the Experiments
 
-I
 
 Run an individual experiment:
 
@@ -47,8 +68,6 @@ Replace `paris` with `rome` or `spain` to test other datasets.
 Full History achieved the highest or joint highest accuracy across all three datasets.
 
 Rolling Summary performed well on the synthetic dialogues, while the simplified SISU implementation faced challenges with dialogue-move interpretation and memory updates.
-
-![Mean Accuracy](results/mean_accuracy.png)
 
 Detailed experiment results and visualizations are available in the `results/` directory.
 
