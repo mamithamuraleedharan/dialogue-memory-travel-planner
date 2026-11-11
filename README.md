@@ -31,12 +31,12 @@ Three travel-planning dialogues were used:
 ## Project Structure
 
 ```text
-dialogue-memory-travel-planner/
+
 ├── data/                 # Travel-planning dialogue datasets
 ├── src/
 │   ├── dialogue/         # SISU implementation and dialogue types
 │   ├── llm/              # Ollama connection and requirement extraction
-│   └── memory/           # Summary memory implementation
+│   └── memory/           # Full history and Summary memory implementation
 ├── experiments/
 │   ├── runFullHistory.ts # Full History experiment
 │   ├── runSummary.ts     # Rolling Summary experiment
@@ -44,10 +44,8 @@ dialogue-memory-travel-planner/
 │   └── evaluate.ts      # Accuracy evaluation
 ├── results/
 │   ├── analysis.ipynb    # Results analysis notebook
-│   ├── *.csv             # Experiment results
-│   └── *.png             # Result visualizations
-├── package.json
-└── README.md
+│   ├── others            # Experiment results
+
 ```
 
 ## Running the Experiments
